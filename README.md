@@ -1,36 +1,56 @@
+<h1 align="center">🛍️ Rajput Shoping</h1>
 
-# 🛍️ Rajput Shoping
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18-blue?style=flat&logo=react" />
+  <img src="https://img.shields.io/badge/Firebase-Auth,DB,Storage-orange?style=flat&logo=firebase" />
+  <img src="https://img.shields.io/badge/Deployed-Firebase%20Hosting-brightgreen?style=flat&logo=firebase" />
+</p>
 
-Welcome to **Rajput Shoping**, a modern and animated e-commerce website built using React, Firebase, and Tailwind CSS. This project delivers a sleek user experience with powerful admin tools and payment integration.
+<p align="center">
+  <b>A modern and animated e-commerce site built with React, Firebase, and Tailwind CSS</b><br>
+  <i>Fully responsive UI | Admin dashboard | Realtime database | QR Payment</i>
+</p>
 
 ---
 
 ## ✨ Features
 
-- 🧑‍💻 **User Authentication** (Signup/Login)
-- 🛒 **Shopping Cart** with Order Placement
-- 🛍️ **Admin Panel** for Product Management
-- 📦 **Dynamic Product Listing** and Filters
+- 🔐 **User Authentication** (Signup/Login with Email or Google)
+- 🛒 **Add to Cart & Checkout** Functionality
+- 🛍️ **Admin Dashboard** for Managing Products
+- 📦 **Dynamic Product Listing** from Firestore
+- 📱 **Fully Responsive Design**
 - 💳 **QR Code Based Payment System**
-- 📱 **Mobile Responsive UI**
-- 🔐 Firebase Auth + Firestore DB + Firebase Storage
+- ☁️ **Realtime Firestore Database**
+- 🎞️ **Smooth Page Transitions with Framer Motion**
 
 ---
 
 ## 🚀 Tech Stack
 
-| Frontend      | Backend       | Database       | Styling         | Hosting       |
-|---------------|---------------|----------------|------------------|---------------|
-| React         | Firebase Functions | Firestore      | Tailwind CSS     | Firebase Hosting |
-| React Router  |               | Firebase Storage | Framer Motion (Animations) |         |
+| Frontend       | Backend/Services       | Database       | Styling         | Deployment         |
+|----------------|------------------------|----------------|------------------|--------------------|
+| React, React Router | Firebase Auth, Functions | Firestore DB    | Tailwind CSS     | Firebase Hosting    |
+| Lazy Loading   | Firebase Storage       | Cloud Storage  | Framer Motion (FX) |                    |
 
 ---
 
-> 📌 All pages are responsive and animated with smooth transitions.
+## 📂 Project Structure (Simplified)
+
+```
+Rajput-Shoping/
+├── src/
+│   ├── components/       # Reusable components (Header, Spinner, etc.)
+│   ├── pages/            # Page components
+│   ├── context/          # Auth and Cart Context
+│   ├── config/           # Firebase config
+│   ├── assets/           # Images and static files
+│   └── App.jsx           # Main application with routes
+```
 
 ---
 
-## 🔧 Setup & Installation
+## 🔧 Getting Started
 
 ```bash
 git clone https://github.com/your-username/Rajput-Shoping.git
@@ -39,21 +59,45 @@ npm install
 npm run dev
 ```
 
-Firebase setup:
+---
 
-- Create a Firebase project
-- Enable Auth, Firestore, and Storage
-- Replace your config in `/src/config/firebase.js`
+## 🔑 Firebase Setup
+
+1. Go to [Firebase Console](https://console.firebase.google.com/)
+2. Create a new project
+3. Enable the following:
+   - Firebase Authentication (Email/Password + Google)
+   - Firestore Database
+   - Firebase Storage
+4. Replace Firebase config in:
+
+```js
+// src/config/firebase.js
+const firebaseConfig = {
+  apiKey: "...",
+  authDomain: "...",
+  projectId: "...",
+  storageBucket: "...",
+  messagingSenderId: "...",
+  appId: "..."
+}
+```
 
 ---
 
-## 🧑‍💻 Developer Info
+## 👨‍💻 Developer
 
 **Dhanish Kumar**  
 🎓 B.Tech CSE (2025), Galgotias University  
-🌐 [LinkedIn](https://linkedin.com/in/dhanish-kumar-533aaa173) | [GitHub](https://github.com/dhanishkumar)
+🔗 [LinkedIn](https://linkedin.com/in/dhanish-kumar-533aaa173)  
+🐙 [GitHub](https://github.com/dhanishkumar)
 
 ---
 
-Thank you for visiting Rajput Shoping! 💖  
-For feedback or collaboration, feel free to connect.
+## 💬 Feedback or Collaboration?
+
+📧 Reach out at: **dhanishkumar2001@gmail.com**
+
+---
+
+> Made with ❤️ using React + Firebase
