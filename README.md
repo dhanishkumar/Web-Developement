@@ -55,9 +55,5 @@ Firebase setup:
 
 ---
 
-## 🌈 Animation & UI Preview
-
-![Animation Preview](https://i.imgur.com/BBaH3Nu.gif)
-
 Thank you for visiting Rajput Shoping! 💖  
 For feedback or collaboration, feel free to connect.
