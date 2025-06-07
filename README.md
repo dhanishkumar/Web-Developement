@@ -28,23 +28,6 @@ Welcome to **Rajput Shoping**, a modern and animated e-commerce website built us
 
 ---
 
-## 📸 Screenshots
-
-### 🏠 Home Page
-![Home](https://i.imgur.com/gyXKVEh.png)
-
-### 🛒 Product Page
-![Product](https://i.imgur.com/FKkUUX1.png)
-
-### 🛍️ Cart Page
-![Cart](https://i.imgur.com/YWXj6cu.png)
-
-### 🔐 Login Page
-![Login](https://i.imgur.com/lm2DBZ3.png)
-
-### 👨‍💻 Admin Panel
-![Admin](https://i.imgur.com/OuC2NAX.png)
-
 > 📌 All pages are responsive and animated with smooth transitions.
 
 ---
