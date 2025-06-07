@@ -1,8 +1,6 @@
 
 # 🛍️ Rajput Shoping
 
-![Rajput Shoping Banner](https://i.imgur.com/VY7E5OC.gif)
-
 Welcome to **Rajput Shoping**, a modern and animated e-commerce website built using React, Firebase, and Tailwind CSS. This project delivers a sleek user experience with powerful admin tools and payment integration.
 
 ---
